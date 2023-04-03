@@ -1,0 +1,74 @@
+.OurTeam_inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.TeamCard {
+  @media(min-width:1024px) {
+    max-width: 22%;
+  }
+}
+
+.TeamCard img {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+.TeamCard h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  padding: 0 16px;
+  margin-bottom: 10px;
+}
+
+.TeamCard p {
+  font-size: 14px;
+  font-weight: 300px;
+  color: #cccccc;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 0 16px;
+  margin-bottom: 20px;
+}
+
+.TeamCard {
+  overflow: hidden;
+  @media (min-width: 768px) and (max-width: 1023px) {
+    width: 45%;
+  }
+}
+
+.CardImage {
+  position: relative;
+  max-width: 100%;
+}
+
+.CardImage:hover .CardAction {
+  transform: translateX(0%);
+}
+
+.CardAction {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 15px;
+  padding: 30px 0;
+  background-color: #007bff;
+  transform: translateX(-100%);
+  transition: 0.4s linear;
+}
+
+.CardAction ul li {
+  margin-bottom: 10px;
+}
+
+.CardAction ul li a {
+  padding: 20px;
+}
+
+.OurTeam {
+  border-bottom: 1px solid #cccccc;
+  margin-bottom: 40px;
+}

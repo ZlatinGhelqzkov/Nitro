@@ -1,0 +1,66 @@
+.PortfolioBtn {
+  display: flex;
+  justify-content: space-around;
+  width: 350px;
+  margin: 0 auto;
+}
+
+.Masonry {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Masonry img {
+  max-width: 100%;
+  margin-bottom: 20px;
+  @media(min-width: 768px) {
+    margin-bottom: 0;
+  }
+}
+
+.FadeAction {
+  position: relative;
+  height: 100%;
+  @media(min-width: 768px) {
+    max-width: 200px;
+    margin: 10px 0;
+  }
+}
+
+.FadeAction:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  transition: all 0.3s linear;
+}
+
+.FadeAction:hover:before {
+  position: absolute;
+  background-color: rgba(25, 25 ,25 , 0.6);
+}
+
+.FadeContent a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.FadeContent {
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background: transparent;
+  text-align: center;
+  transition: 0.2s linear;
+  transform: translateY(100%);
+}
+
+.FadeAction:hover .FadeContent {
+  bottom: 25%;
+}

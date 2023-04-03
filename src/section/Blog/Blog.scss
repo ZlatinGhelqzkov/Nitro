@@ -1,0 +1,71 @@
+.Blog_inner {
+  @media(min-width:768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.BlogCard {
+  margin-bottom: 60px;
+  @media(min-width:768px) {
+    max-width: 45%;
+  }
+  @media(min-width:1024px) {
+    max-width: 31%;
+  }
+}
+
+.BlogCard img {
+  max-width: 100%;
+  margin-bottom: 30px;
+}
+
+.BlogCard a {
+  text-decoration: none;
+}
+
+.BlogCard > a:nth-of-type(1) {
+  display: block;
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.BlogCard > a:nth-of-type(2) {
+  color: #007bff;
+  font-weight: 600;
+}
+
+.Date {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.Date span {
+  height: 3px;
+  width: 3px;
+  border-radius: 50px;
+  background: #b3b3b3;
+  margin: 0 10px;
+}
+
+.Date p {
+  font-size: 14px;
+  color: #b3b3b3;
+}
+
+.Date a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.BlogCard > p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 20px;
+}

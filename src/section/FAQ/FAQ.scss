@@ -1,0 +1,62 @@
+.FAQ_inner {
+  @media(min-width:1024px) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.FAQ_lower {
+  @media(min-width:1024px) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+.FAQ_content {
+  @media(min-width:1024px) {
+    display: flex;
+  }
+}
+
+.FAQ_image {
+  max-width: 100%;
+  margin-bottom: 60px;
+  @media(min-width:1024px) {
+    max-width: 40%;
+    margin-right: 30px;
+  }
+}
+
+.FAQ_image img {
+  max-width: 100%;
+  margin-bottom: 60px;
+  @media(min-width:1024px) {
+    max-width: 100%;
+  }
+}
+
+.QuestionCard {
+  margin-bottom: 50px;
+  @media(min-width:1024px) {
+    max-width: 48%;
+  }
+}
+
+.QuestionCard h3 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 25px;
+}
+
+.QuestionCard p {
+  line-height: 1.7;
+}
+
+.ServCardsecondary {
+  max-width: 100%;
+  @media(min-width:1024px) {
+    max-width: 47%;
+    margin-right: 20px;
+  }
+}

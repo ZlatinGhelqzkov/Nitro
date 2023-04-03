@@ -1,0 +1,85 @@
+.Pricing {
+  background: rgba(52,58,64,.03);
+  padding-top: 60px;
+}
+
+.Pricing_inner {
+  @media(min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+}
+
+.PricingCard {
+  text-align: center;
+  margin-bottom: 40px;
+  padding: 30px;
+  background-color: #fff;
+  @media(min-width:768px) {
+    padding: 30px 35px;
+  }
+  @media(min-width:1024px) {
+    width: 25%;
+  }
+}
+
+.PricingCard h3 {
+  font-size: 28px;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+.PricingCard h2 {
+  color: #007bff;
+  font-size: 44px;
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.PricingCard h2:after {
+  content: "/ year";
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(100,100,100,.5);
+}
+
+.PricingCard li {
+  text-align: left;
+  margin-bottom: 70px;
+}
+
+.PricingCard li p {
+  max-width: 250px;
+  margin-bottom: 25px;
+  margin-left: 40px;
+}
+
+.PricingCard p:before {
+  content: "\2713";
+  color: #71bc42;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.Basic p:nth-of-type(+n+3) {
+  color: rgba(100,100,100,.3);
+  text-decoration: line-through;
+}
+
+.Basic p:nth-of-type(+n+3)::before {
+  content: "\2713";
+  color: rgba(100,100,100,.3);
+  text-decoration: none;
+}
+
+.Premium p:nth-of-type(+n+5) {
+  color: rgba(100,100,100,.3);
+  text-decoration: line-through;
+}
+
+.Premium p:nth-of-type(+n+5)::before {
+  content: "\2713";
+  color: rgba(100,100,100,.3);
+  text-decoration: none;
+}
