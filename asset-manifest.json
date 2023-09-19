@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Nitro/static/css/main.38cdee4d.css",
+    "main.js": "/Nitro/static/js/main.2b9f8927.js",
+    "static/media/person_4.jpg": "/Nitro/static/media/person_4.355ad9a664fcd579635c.jpg",
+    "static/media/person_1.jpg": "/Nitro/static/media/person_1.375fc979464419f0ef6c.jpg",
+    "static/media/hero_1.jpg": "/Nitro/static/media/hero_1.d3ba15b8629c3d7cdd30.jpg",
+    "static/media/person_2.jpg": "/Nitro/static/media/person_2.2be5bcf1756ab0778d64.jpg",
+    "static/media/person_3.jpg": "/Nitro/static/media/person_3.b2e5a7334ac28f448b8b.jpg",
+    "static/media/about_1.jpg": "/Nitro/static/media/about_1.67044f8a6eb01d61e743.jpg",
+    "static/media/slide_2.jpg": "/Nitro/static/media/slide_2.6eada887abd46e91ada2.jpg",
+    "static/media/hero_2.jpg": "/Nitro/static/media/hero_2.58f97face3aefa6902c1.jpg",
+    "static/media/img_5.jpg": "/Nitro/static/media/img_5.e897aa6827c36c6a96b8.jpg",
+    "static/media/person_8.jpg": "/Nitro/static/media/person_8.c4290b036baee5dd016d.jpg",
+    "static/media/person_6.jpg": "/Nitro/static/media/person_6.44072e0820d093258b7b.jpg",
+    "static/media/person_7.jpg": "/Nitro/static/media/person_7.ad630eb06a6660fef66a.jpg",
+    "static/media/img_1.jpg": "/Nitro/static/media/img_1.c96ae774cfbb832c64bb.jpg",
+    "static/media/img_11.jpg": "/Nitro/static/media/img_11.d9d99fc644f62d8767e0.jpg",
+    "static/media/person_5.jpg": "/Nitro/static/media/person_5.1d5901f97b46aeb4ee8e.jpg",
+    "static/media/img_4.jpg": "/Nitro/static/media/img_4.05fddd33cf03b9f53f83.jpg",
+    "static/media/img_9.jpg": "/Nitro/static/media/img_9.dd14f96c013f7e9d337b.jpg",
+    "static/media/img_8.jpg": "/Nitro/static/media/img_8.144e8098b6ca06388d13.jpg",
+    "static/media/img_6.jpg": "/Nitro/static/media/img_6.410b4fe4a4aeb6f6e94b.jpg",
+    "static/media/img_7.jpg": "/Nitro/static/media/img_7.8a1231d509fe6bec4ea3.jpg",
+    "static/media/img_13.jpg": "/Nitro/static/media/img_13.7f0725adfe3b53ed13f1.jpg",
+    "static/media/img_3.jpg": "/Nitro/static/media/img_3.eeecea77f16983e3f97f.jpg",
+    "static/media/img_12.jpg": "/Nitro/static/media/img_12.dffe388445c0948f2f07.jpg",
+    "static/media/img_10.jpg": "/Nitro/static/media/img_10.afe545a1188da34c6644.jpg",
+    "index.html": "/Nitro/index.html",
+    "main.38cdee4d.css.map": "/Nitro/static/css/main.38cdee4d.css.map",
+    "main.2b9f8927.js.map": "/Nitro/static/js/main.2b9f8927.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.38cdee4d.css",
+    "static/js/main.2b9f8927.js"
+  ]
+}
